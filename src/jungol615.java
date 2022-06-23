@@ -51,12 +51,13 @@ public class jungol615 {
 		// ЦђБе
 		System.out.print("avg");
 		for(int i = 0; i < subLen; i++) {
-			int sum = 0;
-			for(student s : students) {
-				sum += s.getSubAt(i);
-			}
+			int sum = 0, avg = 0;
 			
-			System.out.print(" "+ sum/subLen);
+			for(student s : students) 
+				sum += s.getSubAt(i);
+			
+			avg = sum/subLen;
+			System.out.print(" "+ avg);
 		}
 		
 		scan.close();
