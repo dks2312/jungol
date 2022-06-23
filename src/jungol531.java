@@ -12,5 +12,7 @@ public class jungol531 {
 		else if(d <= 72.57) System.out.println("Middleweight");
 		else if(d <= 88.45) System.out.println("Cruiserweight");
 		else System.out.println("Heavyweight");
+		
+		scan.close();
 	}
 }
