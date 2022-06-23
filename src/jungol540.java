@@ -10,5 +10,7 @@ public class jungol540 {
 			if(num == -1) break;
 			if(num%3==0) System.out.println(num/3);
 		}
+		
+		scan.close();
 	}
 }
