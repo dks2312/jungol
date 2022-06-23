@@ -5,9 +5,9 @@ public class jungol560 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		int min = 1000, count = 10;
-		while(count-->0) {
-			int num = scan.nextInt();
+		short min = 1000;
+		for(short i = 0; i < 10; i++) {
+			short num = scan.nextShort();
 			if(min > num) min = num;
 		}
 		
@@ -15,5 +15,4 @@ public class jungol560 {
 		
 		scan.close();
 	}
-
 }
